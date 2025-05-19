@@ -1,6 +1,6 @@
 import React from 'react';
 import image1 from "../assets/allmobiles.jpeg";
-import image2 from "../assets/laptop.jpg";
+import image2 from "../assets/Laptop.jpg";
 import image3 from "../assets/accessories.jpg"
 import image4 from "../assets/watch.jpg"
 import image5 from "../assets/headphone.jpg"
