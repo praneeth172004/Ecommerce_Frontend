@@ -1,0 +1,44 @@
+/* custom-slick.css */
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+  
+}
+
+/* custom-slick.css */
+
+/* Make arrows always visible */
+.slick-prev, .slick-next {
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Style the arrow icons */
+.slick-prev:before, .slick-next:before {
+  font-size: 28px;
+  color: #333; /* You can change this to match your theme */
+  opacity: 0.9;
+}
+
+/* Position adjustments for smaller screens */
+@media (max-width: 768px) {
+  .slick-prev {
+    left: -5px !important;
+  }
+
+  .slick-next {
+    right: -5px !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .slick-prev {
+    left: -25px !important;
+  }
+
+  .slick-next {
+    right: -25px !important;
+  }
+}
+
